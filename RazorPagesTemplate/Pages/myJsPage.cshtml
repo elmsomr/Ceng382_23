@@ -1,0 +1,26 @@
+﻿@page
+@model MyApp.Namespace.myJsPageModel
+@{
+    ViewData["Title"] = "Addition Form Page";
+}
+<body>
+<main class="form-signin w-100 m-auto">
+<form>
+    <img class="mb-4" src="~/images/icons8-calculator-128.png" alt="" width="72" height="57">
+    <h1 class="h3 mb-3 fw-normal">Addition Form</h1>
+
+    <div class="form-floating">
+      <input type="number" class="form-control" id="firstNumber">
+      <label for="floatingInput">First Number</label>
+    </div><br>
+    <div class="form-floating">
+      <input type="number" class="form-control" id="secondNumber">
+      <label for="floatingPassword">Second Number</label>
+    </div><br>
+    <button class="btn btn-primary w-100 py-2" type="submit">Calculate</button><br><br>
+    <button class="btn btn-secondary w-100 py-2" type="submit">Toggle</button><br><br>
+    <p id="resultParagraph" style="display: none;"></p>
+    <p class="mt-5 mb-3 text-body-secondary">&copy; 2017–2024</p>
+  </form>
+</main>
+</body>
