@@ -1,0 +1,1 @@
+public record Room(string RoomID, string RoomName, int Capacity);

@@ -13,3 +13,17 @@ C:\Users\gakko\Ceng382_23_24_s_202011209\obj\Debug\net8.0\refint\Ceng382_23_24_s
 C:\Users\gakko\Ceng382_23_24_s_202011209\obj\Debug\net8.0\Ceng382_23_24_s_202011209.pdb
 C:\Users\gakko\Ceng382_23_24_s_202011209\obj\Debug\net8.0\Ceng382_23_24_s_202011209.genruntimeconfig.cache
 C:\Users\gakko\Ceng382_23_24_s_202011209\obj\Debug\net8.0\ref\Ceng382_23_24_s_202011209.dll
+E:\cankaya\3-2\CENG382\lab6\bin\Debug\net8.0\Ceng382_23_24_s_202011209.exe
+E:\cankaya\3-2\CENG382\lab6\bin\Debug\net8.0\Ceng382_23_24_s_202011209.deps.json
+E:\cankaya\3-2\CENG382\lab6\bin\Debug\net8.0\Ceng382_23_24_s_202011209.runtimeconfig.json
+E:\cankaya\3-2\CENG382\lab6\bin\Debug\net8.0\Ceng382_23_24_s_202011209.dll
+E:\cankaya\3-2\CENG382\lab6\bin\Debug\net8.0\Ceng382_23_24_s_202011209.pdb
+E:\cankaya\3-2\CENG382\lab6\obj\Debug\net8.0\Ceng382_23_24_s_202011209.GeneratedMSBuildEditorConfig.editorconfig
+E:\cankaya\3-2\CENG382\lab6\obj\Debug\net8.0\Ceng382_23_24_s_202011209.AssemblyInfoInputs.cache
+E:\cankaya\3-2\CENG382\lab6\obj\Debug\net8.0\Ceng382_23_24_s_202011209.AssemblyInfo.cs
+E:\cankaya\3-2\CENG382\lab6\obj\Debug\net8.0\Ceng382_23_24_s_202011209.csproj.CoreCompileInputs.cache
+E:\cankaya\3-2\CENG382\lab6\obj\Debug\net8.0\Ceng382_23_24_s_202011209.dll
+E:\cankaya\3-2\CENG382\lab6\obj\Debug\net8.0\refint\Ceng382_23_24_s_202011209.dll
+E:\cankaya\3-2\CENG382\lab6\obj\Debug\net8.0\Ceng382_23_24_s_202011209.pdb
+E:\cankaya\3-2\CENG382\lab6\obj\Debug\net8.0\Ceng382_23_24_s_202011209.genruntimeconfig.cache
+E:\cankaya\3-2\CENG382\lab6\obj\Debug\net8.0\ref\Ceng382_23_24_s_202011209.dll
