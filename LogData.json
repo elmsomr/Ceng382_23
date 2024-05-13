@@ -1,0 +1,14 @@
+[
+    {
+      "Timestamp": "2024-01-05T10:00:00",
+      "ReserverName": "John Doe",
+      "RoomId": "01",
+      "Action": "Reservation Created"
+    },
+    {
+      "Timestamp": "2023-01-01T12:00:00",
+      "ReserverName": "Jane Smith",
+      "RoomId": "02",
+      "Action": "Reservation Cancelled"
+    }
+  ]
