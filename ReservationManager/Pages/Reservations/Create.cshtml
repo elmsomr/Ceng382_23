@@ -1,0 +1,53 @@
+@page
+@model CreateModel
+@{
+    ViewData["Title"] = "Create Reservation";
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <h1 class="text-center">Create Reservation</h1>
+            <div class="card mt-4">
+                <div class="card-body">
+                    <form method="post">
+                        <div class="form-group">
+                            <label asp-for="Reservation.StartDate"></label>
+                            <input asp-for="Reservation.StartDate" class="form-control datetimepicker" />
+                            <span asp-validation-for="Reservation.StartDate" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Reservation.EndDate"></label>
+                            <input asp-for="Reservation.EndDate" class="form-control datetimepicker" />
+                            <span asp-validation-for="Reservation.EndDate" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Reservation.RoomId"></label>
+                            <select asp-for="Reservation.RoomId" asp-items="@(new SelectList(Model.Rooms, "Id", "Name"))" class="form-control">
+                                <option value="">Select a Room</option>
+                            </select>
+                            <span asp-validation-for="Reservation.RoomId" class="text-danger"></span>
+                        </div>
+                        <div class="text-center">
+                            <br><br>
+                            <button type="submit" class="btn btn-primary">Create</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script>
+        flatpickr(".datetimepicker", {
+            enableTime: true,
+            dateFormat: "Y-m-d H:i",
+            minDate: "today"
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"></script>
+}

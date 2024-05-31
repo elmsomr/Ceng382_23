@@ -1,0 +1,66 @@
+﻿@page
+@model PrivacyModel
+@{
+    ViewData["Title"] = "Privacy Policy";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h1 class="card-title text-center">@ViewData["Title"]</h1>
+
+                    <h3 class="mt-4">Introduction</h3>
+                    <p>
+                        Your privacy is important to us. This privacy policy explains the personal data we collect, how we use it, and your rights regarding your data.
+                    </p>
+
+                    <h3 class="mt-4">Information We Collect</h3>
+                    <p>
+                        We collect various types of information in connection with the services we provide, including:
+                    </p>
+                    <ul>
+                        <li>Personal identification information (Name, email address, phone number, etc.)</li>
+                        <li>Usage data and cookies</li>
+                        <li>Any other information you provide directly to us</li>
+                    </ul>
+
+                    <h3 class="mt-4">How We Use Your Information</h3>
+                    <p>
+                        We use the collected data for various purposes:
+                    </p>
+                    <ul>
+                        <li>To provide and maintain our services</li>
+                        <li>To notify you about changes to our services</li>
+                        <li>To provide customer support</li>
+                        <li>To gather analysis or valuable information to improve our services</li>
+                    </ul>
+
+                    <h3 class="mt-4">Your Data Protection Rights</h3>
+                    <p>
+                        You have the following data protection rights:
+                    </p>
+                    <ul>
+                        <li>The right to access – You have the right to request copies of your personal data.</li>
+                        <li>The right to rectification – You have the right to request that we correct any information you believe is inaccurate.</li>
+                        <li>The right to erasure – You have the right to request that we erase your personal data, under certain conditions.</li>
+                    </ul>
+
+                    <h3 class="mt-4">Contact Us</h3>
+                    <p>
+                        If you have any questions about this privacy policy, you can contact us at:
+                    </p>
+                    <p>
+                        <strong>Email:</strong> support@reservationmanager.com<br />
+                        <strong>Address:</strong> Cankaya Uni, 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

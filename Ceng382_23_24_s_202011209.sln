@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ceng382_23_24_s_202011209", "Ceng382_23_24_s_202011209.csproj", "{CD155685-5818-45CA-9DBC-E5AC47B4CDAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReservationManager", "ReservationManager\ReservationManager.csproj", "{154BF33A-AEB5-42D9-BC9C-C3DE6AF9D951}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CD155685-5818-45CA-9DBC-E5AC47B4CDAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CD155685-5818-45CA-9DBC-E5AC47B4CDAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CD155685-5818-45CA-9DBC-E5AC47B4CDAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CD155685-5818-45CA-9DBC-E5AC47B4CDAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{154BF33A-AEB5-42D9-BC9C-C3DE6AF9D951}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{154BF33A-AEB5-42D9-BC9C-C3DE6AF9D951}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{154BF33A-AEB5-42D9-BC9C-C3DE6AF9D951}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{154BF33A-AEB5-42D9-BC9C-C3DE6AF9D951}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {771264F2-6A39-4459-B35F-02ACD9E8FE82}
+		SolutionGuid = {650A1254-9755-4D91-BA66-E6249A1BAE5D}
 	EndGlobalSection
 EndGlobal

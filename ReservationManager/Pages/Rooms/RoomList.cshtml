@@ -1,0 +1,32 @@
+@page
+@model RoomListModel
+@{
+    ViewData["Title"] = "Rooms List";
+}
+
+<h2>Rooms List</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Room Name</th>
+            <th>Capacity</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var room in Model.Rooms)
+        {
+            <tr>
+                <td>@room.Name</td>
+                <td>@room.Capacity</td>
+                <td>
+                    <a asp-page="/EditRoom" asp-route-id="@room.Id" class="btn btn-primary">Edit</a>
+                    <form method="post" asp-page-handler="Delete" asp-route-id="@room.Id" class="d-inline">
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

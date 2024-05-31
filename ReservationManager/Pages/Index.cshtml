@@ -1,0 +1,40 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="container">
+    <div class="jumbotron text-center mt-5">
+        <h1 class="display-4">Welcome to ReservationManager</h1>
+        <p class="lead">Your ultimate solution for managing room reservations effortlessly.</p>
+        <hr class="my-4">
+        <p>Get started by creating a new reservation or adding a new room.</p>
+        <a class="btn btn-primary btn-lg" asp-area="" asp-page="/Reservations/Create" role="button">Create Reservation</a>
+        <a class="btn btn-secondary btn-lg" asp-area="" asp-page="/Rooms/AddRoom" role="button">Add Room</a>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 offset-md-3 mt-4">
+            <h2 class="text-center">Your Account</h2>
+            <div class="card">
+                <div class="card-body">
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <p class="text-center">Here are some quick actions:</p>
+                        <div class="d-flex justify-content-center">
+                            <a class="btn btn-info btn-sm mx-2" asp-area="Identity" asp-page="/Account/Manage/Index">Manage Account</a>
+                            <form method="post" asp-area="Identity" asp-page="/Account/Logout" id="logoutForm" class="form-inline">
+                                <button type="submit" class="btn btn-danger btn-sm">Logout</button>
+                            </form>
+                        </div>
+                    }
+                    else
+                    {
+                        <p class="text-center">Please <a asp-area="Identity" asp-page="/Account/Login">Login</a> or <a asp-area="Identity" asp-page="/Account/Register">Register</a> to access more features.</p>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

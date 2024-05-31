@@ -1,0 +1,40 @@
+﻿@page
+@model ErrorModel
+@{
+    ViewData["Title"] = "Error";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h1 class="card-title text-danger">Error</h1>
+                    <h2 class="text-danger">An error occurred while processing your request.</h2>
+
+                    @if (Model.ShowRequestId)
+                    {
+                        <div class="alert alert-info mt-4">
+                            <strong>Request ID:</strong> <code>@Model.RequestId</code>
+                        </div>
+                    }
+
+                    <h3 class="mt-4">Development Mode</h3>
+                    <p class="mb-3">
+                        Swapping to the <strong>Development</strong> environment displays detailed information about the error that occurred.
+                    </p>
+                    <div class="alert alert-warning">
+                        <strong>The Development environment shouldn't be enabled for deployed applications.</strong>
+                        It can result in displaying sensitive information from exceptions to end users.
+                        For local debugging, enable the <strong>Development</strong> environment by setting the <strong>ASPNETCORE_ENVIRONMENT</strong> environment variable to <strong>Development</strong>
+                        and restarting the app.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
